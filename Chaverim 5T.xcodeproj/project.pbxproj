@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D718B1C320BF717600CB85D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D718B1C220BF717600CB85D0 /* AppDelegate.swift */; };
+		D718B1C520BF717600CB85D0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D718B1C420BF717600CB85D0 /* FirstViewController.swift */; };
+		D718B1C720BF717600CB85D0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D718B1C620BF717600CB85D0 /* SecondViewController.swift */; };
+		D718B1CA20BF717600CB85D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D718B1C820BF717600CB85D0 /* Main.storyboard */; };
+		D718B1CC20BF717800CB85D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D718B1CB20BF717800CB85D0 /* Assets.xcassets */; };
+		D718B1CF20BF717800CB85D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D718B1CD20BF717800CB85D0 /* LaunchScreen.storyboard */; };
+		D718B1DB20BF71A800CB85D0 /* tech613-crop-u13065.png in Resources */ = {isa = PBXBuildFile; fileRef = D718B1D620BF71A700CB85D0 /* tech613-crop-u13065.png */; };
+		D718B1DC20BF71A800CB85D0 /* BulkaTech Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D718B1D720BF71A800CB85D0 /* BulkaTech Logo.png */; };
+		D718B1DD20BF71A800CB85D0 /* Request.png in Resources */ = {isa = PBXBuildFile; fileRef = D718B1D820BF71A800CB85D0 /* Request.png */; };
+		D718B1DE20BF71A800CB85D0 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = D718B1D920BF71A800CB85D0 /* Contact.png */; };
+		D718B1DF20BF71A800CB85D0 /* Chaverim.png in Resources */ = {isa = PBXBuildFile; fileRef = D718B1DA20BF71A800CB85D0 /* Chaverim.png */; };
+		D718B1E220BF732500CB85D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D718B1E120BF732500CB85D0 /* CoreLocation.framework */; };
+		D718B1E420BF789200CB85D0 /* pin-filled-for-locations_318-32368.png in Resources */ = {isa = PBXBuildFile; fileRef = D718B1E320BF789100CB85D0 /* pin-filled-for-locations_318-32368.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D718B1BF20BF717600CB85D0 /* Chaverim 5T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chaverim 5T.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D718B1C220BF717600CB85D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D718B1C420BF717600CB85D0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D718B1C620BF717600CB85D0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D718B1C920BF717600CB85D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D718B1CB20BF717800CB85D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D718B1CE20BF717800CB85D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D718B1D020BF717800CB85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D718B1D620BF71A700CB85D0 /* tech613-crop-u13065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tech613-crop-u13065.png"; sourceTree = "<group>"; };
+		D718B1D720BF71A800CB85D0 /* BulkaTech Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BulkaTech Logo.png"; sourceTree = "<group>"; };
+		D718B1D820BF71A800CB85D0 /* Request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Request.png; sourceTree = "<group>"; };
+		D718B1D920BF71A800CB85D0 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
+		D718B1DA20BF71A800CB85D0 /* Chaverim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chaverim.png; sourceTree = "<group>"; };
+		D718B1E120BF732500CB85D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D718B1E320BF789100CB85D0 /* pin-filled-for-locations_318-32368.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-filled-for-locations_318-32368.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D718B1BC20BF717600CB85D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D718B1E220BF732500CB85D0 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D718B1B620BF717600CB85D0 = {
+			isa = PBXGroup;
+			children = (
+				D718B1C120BF717600CB85D0 /* Chaverim 5T */,
+				D718B1C020BF717600CB85D0 /* Products */,
+				D718B1D720BF71A800CB85D0 /* BulkaTech Logo.png */,
+				D718B1DA20BF71A800CB85D0 /* Chaverim.png */,
+				D718B1D920BF71A800CB85D0 /* Contact.png */,
+				D718B1D820BF71A800CB85D0 /* Request.png */,
+				D718B1E320BF789100CB85D0 /* pin-filled-for-locations_318-32368.png */,
+				D718B1D620BF71A700CB85D0 /* tech613-crop-u13065.png */,
+				D718B1E020BF732500CB85D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D718B1C020BF717600CB85D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D718B1BF20BF717600CB85D0 /* Chaverim 5T.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D718B1C120BF717600CB85D0 /* Chaverim 5T */ = {
+			isa = PBXGroup;
+			children = (
+				D718B1C220BF717600CB85D0 /* AppDelegate.swift */,
+				D718B1C420BF717600CB85D0 /* FirstViewController.swift */,
+				D718B1C620BF717600CB85D0 /* SecondViewController.swift */,
+				D718B1C820BF717600CB85D0 /* Main.storyboard */,
+				D718B1CB20BF717800CB85D0 /* Assets.xcassets */,
+				D718B1CD20BF717800CB85D0 /* LaunchScreen.storyboard */,
+				D718B1D020BF717800CB85D0 /* Info.plist */,
+			);
+			path = "Chaverim 5T";
+			sourceTree = "<group>";
+		};
+		D718B1E020BF732500CB85D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D718B1E120BF732500CB85D0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D718B1BE20BF717600CB85D0 /* Chaverim 5T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D718B1D320BF717800CB85D0 /* Build configuration list for PBXNativeTarget "Chaverim 5T" */;
+			buildPhases = (
+				D718B1BB20BF717600CB85D0 /* Sources */,
+				D718B1BC20BF717600CB85D0 /* Frameworks */,
+				D718B1BD20BF717600CB85D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chaverim 5T";
+			productName = "Chaverim 5T";
+			productReference = D718B1BF20BF717600CB85D0 /* Chaverim 5T.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D718B1B720BF717600CB85D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Avi Bulka";
+				TargetAttributes = {
+					D718B1BE20BF717600CB85D0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D718B1BA20BF717600CB85D0 /* Build configuration list for PBXProject "Chaverim 5T" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D718B1B620BF717600CB85D0;
+			productRefGroup = D718B1C020BF717600CB85D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D718B1BE20BF717600CB85D0 /* Chaverim 5T */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D718B1BD20BF717600CB85D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D718B1CF20BF717800CB85D0 /* LaunchScreen.storyboard in Resources */,
+				D718B1CC20BF717800CB85D0 /* Assets.xcassets in Resources */,
+				D718B1DC20BF71A800CB85D0 /* BulkaTech Logo.png in Resources */,
+				D718B1DE20BF71A800CB85D0 /* Contact.png in Resources */,
+				D718B1DD20BF71A800CB85D0 /* Request.png in Resources */,
+				D718B1E420BF789200CB85D0 /* pin-filled-for-locations_318-32368.png in Resources */,
+				D718B1DB20BF71A800CB85D0 /* tech613-crop-u13065.png in Resources */,
+				D718B1DF20BF71A800CB85D0 /* Chaverim.png in Resources */,
+				D718B1CA20BF717600CB85D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D718B1BB20BF717600CB85D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D718B1C720BF717600CB85D0 /* SecondViewController.swift in Sources */,
+				D718B1C320BF717600CB85D0 /* AppDelegate.swift in Sources */,
+				D718B1C520BF717600CB85D0 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D718B1C820BF717600CB85D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D718B1C920BF717600CB85D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D718B1CD20BF717800CB85D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D718B1CE20BF717800CB85D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D718B1D120BF717800CB85D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D718B1D220BF717800CB85D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D718B1D420BF717800CB85D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PACQM226RV;
+				INFOPLIST_FILE = "Chaverim 5T/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avibulka.Chaverim-5T";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D718B1D520BF717800CB85D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PACQM226RV;
+				INFOPLIST_FILE = "Chaverim 5T/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avibulka.Chaverim-5T";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D718B1BA20BF717600CB85D0 /* Build configuration list for PBXProject "Chaverim 5T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D718B1D120BF717800CB85D0 /* Debug */,
+				D718B1D220BF717800CB85D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D718B1D320BF717800CB85D0 /* Build configuration list for PBXNativeTarget "Chaverim 5T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D718B1D420BF717800CB85D0 /* Debug */,
+				D718B1D520BF717800CB85D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D718B1B720BF717600CB85D0 /* Project object */;
+}
